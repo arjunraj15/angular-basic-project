@@ -9,11 +9,11 @@ import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeslistComponent } from './recipes/recipeslist/recipeslist.component';
 import { RecipesdetailsComponent } from './recipes/recipesdetails/recipesdetails.component';
-import { RecipeitemComponent } from './recipes/recipeitem/recipeitem.component';
+import { RecipesitemComponent } from './recipes/recipeslist/recipesitem/recipesitem.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent,  RecipesComponent, RecipeslistComponent, RecipesdetailsComponent, RecipeitemComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent,  RecipesComponent, RecipeslistComponent, RecipesdetailsComponent,  RecipesitemComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
