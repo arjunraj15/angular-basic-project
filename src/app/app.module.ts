@@ -12,10 +12,12 @@ import { RecipesdetailsComponent } from './recipes/recipesdetails/recipesdetails
 import { RecipesitemComponent } from './recipes/recipeslist/recipesitem/recipesitem.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent,  RecipesComponent, RecipeslistComponent, RecipesdetailsComponent,  RecipesitemComponent,ShoppingListComponent,ShoppingListEditComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent,  RecipesComponent, RecipeslistComponent, RecipesdetailsComponent,  RecipesitemComponent,ShoppingListComponent,ShoppingListEditComponent,NgbModule ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
