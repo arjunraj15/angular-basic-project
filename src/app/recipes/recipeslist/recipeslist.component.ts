@@ -5,7 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './recipeslist.component.html',
   styleUrls: ['./recipeslist.component.css']
 })
-export class RecipeslistComponent implements OnInit {
+export class RecipeslistComponent implements 
+OnInit {
+  recipes = [];
 
   constructor() { }
 
